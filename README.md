@@ -1,6 +1,4 @@
-# CV_OCC
-CV Ismael Martinez.
-
+# CV Ismael Martinez.
 Welcome to my curriculum vitae.
 
 it's for my OpenClassRoom 2nd project.
