@@ -1,0 +1,22 @@
+.title_col {
+  text-align: center;
+  background-color: grey;
+  color: lightgrey;
+}
+
+.col-md-3 {
+  background-color: lightgrey;
+}
+
+#info {
+  text-align: left;
+}
+
+.photo {
+  text-align: center;
+}
+
+.info_list {
+  text-align: left;
+}
+/*# sourceMappingURL=Style_CV.css.map */
