@@ -1,90 +1,92 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8"/>
+		<title>CV ismael martinez</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="Styles/Style_CV.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
-
 	<body>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="container">
-						<div style="text-align: center;">
-							<img src="images/test3.jpg" alt="photo de ismael martinez">
-						</div>
-						<div class="contact">
-							<div class="title_col">
-								<h4>CONTACT</h4>
-							</div>
-							<div class="col">
-								<div class="col">
-									<div class="row title_list">Adresse:</div>
-									<div class="info_list">Toulouse, France</div>
-								</div>
-								<div class="col">
-									<div class="row title_list">Téléphone:</div>
-									<div class="info_list">+33(0)767912363</div>
-								</div>
-								<div class="col">
-									<div class="row title_list">Email:</div>
-									<div class="info_list">martinezismael.fr@gmail.com</div>
-								</div>
-								<div class="col">
-									<div class="row title_list">Site web:</div>
-									<div class="info_list"><a href="https://github.com/elmaquito/CV_ismael_martinez">Lien git</a></div>
-								</div>
-								<div class="col">
-									<div class="row title_list">LinkedIn:</div>
-									<div class="info_list"><a href="https://www.linkedin.com/in/ismael-martinez-805330186/">Ismael martinez</a></div>
-								</div>
-							</div>
-						</div>
-						<div class="Competences">
-							<div class="title_col">
-								<h4>Compétences</h4>
-							</div>
-							<ul>
-								<li>Django</li>
-								<li>HTML5 et CSS3</li>
-								<li>Python</li>
-								<li>excel</li>
-								<li>git</li>
-							</ul>
-						</div>
-						<div class="title_col">
-							<h4>Formation</h4>
-						</div>
-						<p>J'ai appris le développement en autodidacte avec au début de petits jeu qui enseigne les différentes syntaxe et les bases de l'algorithme tel que 
-							<a href="https://www.codingame.com/start">Coding game</a>,
-							Ensuite je me suis penché vers le développement web en utlisant python et Django grace au cours sur OpenClassRoom.
-							Depuis je continue d'en apprendre tout les jours grace à mon travail, mais aussi a mes outils de veilles.
-						</p>
+					<div id="photo_ismael">
+						<img src="images/test3.jpg" alt="photo de ismael martinez" >
 					</div>
+						<div class="title_col">
+							<h4>CONTACT</h4>
+						</div>
+						<ul id="informations">
+							<li>Adresse:</br>Toulouse, France</li>
+							<li>Téléphone:</br>+33(0)767912363</li>
+							<li>Email:</br>martinezismael.fr@gmail.com</li>
+							<li>Site web:</br><a href="https://github.com/elmaquito/CV_ismael_martinez">Lien git</a></li>
+							<li>LinkedIn:</br><a href="https://www.linkedin.com/in/ismael-martinez-805330186/">Ismael martinez</a></li>
+						</ul>
+					<div class="Competences">
+						<div class="title_col">
+							<h4>Compétences</h4>
+						</div>
+						<ul>
+							<li>Django</li>
+							<li>HTML5 et CSS3</li>
+							<li>Python</li>
+							<li>excel</li>
+							<li>git</li>
+						</ul>
+					</div>
+					<div class="title_col">
+						<h4>Formation</h4>
+					</div>
+					<p>J'ai appris le développement en autodidacte avec au début de petits jeu qui enseigne les différentes syntaxe et les bases de l'algorithme tel que 
+						<a href="https://www.codingame.com/start">Coding game</a>,
+						Ensuite je me suis penché vers le développement web en utlisant python et Django grace au cours sur OpenClassRoom.
+						Depuis je continue d'en apprendre tout les jours grace à mon travail, mais aussi a mes outils de veilles.
+					</p>
 				</div>
 				<div class="col-md-7">
-					<div class="col">
-						<div style="text-align: center;">
-							<h1>Martinez Ismael</h1>
+					<header class="col header">
+						<div>
+							<h1><strong id="nom">Ismael</strong> Martinez</h1>
 						</div>
-						<div style="text-align: center;">
-							<h4>Développeur Web</h4>
+						<div>
+							<h4><span>Dével</span>oppeur Web</h4>
+						</div>
+					</header>
+					<div class="container" id="content">
+						<div>
+							<h5>FORMATION</h5>
 						</div>
 					</div>
-					<div class="container">
-					<div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+						{% comment %} <div>
 							<h5>Mon experience:</h5>
 						</div>
 						<div class="col">
 							<div class="col">
 								<div class="row title_list">2020: DEVELOPPEUR WEB – TOULOUSE - EN COURS – Philotech</div>
-								<div class="info_list"></div>
+								<div class="info_list">J'ai commencé mon contrat en tant que développeur web en octobre 2019.
+								Au début, j'ai du me familiariser avec le language dans l'aéronautique 
+								ainsi qu'apprendre le process de transfer et d'assessment d'une tache de maintenance.
+								pour compléter les différentes missions qui m'ont été confiés.
+								J'ai du apprendre en profondeur l'utilisation de HTML5, CSS3, JQUERY pour l'interaction entre l'utilisateur et la page web, 
+								mais aussi comprendre l'importation de fichiers excel vers phpmyadmin afin de creer une base de donnée à partir de ceux-ci
+								et ensuite les importer vers un serveur avec le module wsgi.
+								Enfin j'ai du me perfectionner dans la programmation en python mais aussi en algorythmique
+								afin de creer un code optimisé, propre et aux normes.
+								</div>
 							</div>
 							<div class="col">
 								<div class="row title_list">2019: ASSISTANT TECHNICIEN RESEAUX – POINTRE A PITRE – 1 MOIS – CapExcellence.</div>
-								<div class="info_list">En tant qu’assistant mon rôle était de , pour cela il fallait .
-								J’ai également appris à </div>
+								<div class="info_list">En tant qu’assistant mon rôle était d'aider les techniciens, durant leurs missions sur les différents complexe de l'entreprise.
+								C'est à dire tout ce qui était clonage de système, initalisation de laptop, mais aussi connexion des téléphone fixe au réseaux.
+								Il y avait beaucoup de déplacement afin de régler les problèmes qui nous avait été apporter.
+								J’ai également appris à l'aspect technique de la connnexion sur un réseaux, c'est à dire comment est-ce-que cela fonctionne, sa sécurité etc...</div>
 							</div>
 							<div class="col">
 								<div class="row title_list">2018: DEVELOPPEUR INFORMATIQUE – PARIS – 1 MOIS – Ecole 42.</div>
@@ -97,19 +99,7 @@
 							<div class="col">
 								<div class="row title_list">2014: ASSISTANT ELECTRICIEN – LAMENTIN – 1 SEMAINE – Cabinet de techniciens.</div>
 								<div class="info_list">Les premiers jours, notre mission consistait à observer les lieux afin de déterminer où et
-								comment  installer les fils électriques à travers les murs et poser par la suite des moulures décoratives.
-								Enfin on a pu mettre en place les caméras et ainsi finir la sécurisation de la maison.</div>
+								comment  installer les fils électriques à travers les murs et poser par la suite des moulures décoratives afin de faire protéger les cables.
+								Enfin on a pu mettre en place les caméras a l'intérieur de la maison, mais aussi à l'exterieur.</div>
 							</div>
-						</div>
-						<!-- <ul>
-							<li></li>
-							<li>En 2018: DEVELOPPEUR INFORMATIQUE – PARIS – 1 MOIS Ecole 42.</br> Il s’agissait d’un mois d’apprentissage/concours pour pouvoir rentrer à l’école 42. Ce stage fut riche en apprentissage car on y travaille de manière autonome ( pas de professeur ni manuel) nous devions résoudre des problèmes et compléter des exercices chaque jours sur du Shell ou encore sur du C. On y apprend la programmation de bases en C, mais aussi l’apprentissage en Peer to Peer. La réussite est basée sur l’entraide, la communication et le travail acharné.  </li>
-							<li>En 2015: ASSISTANT EN VENTE – SAINT FRANCOIS – 2 SEMAINE Services portuaires.</br> En tant qu’assistant en vente mon rôle était de proposer un service d’écaillage de poisson sur le port, pour cela il fallait  aller au contact des clients et les convaincre de l’utilité du service proposé J’ai également appris à écailler le produit et le vider le plus rapidement possible sans me blesser, ni abîmer la marchandise et le tout sans trop faire attendre les autres clients.</li>
-							<li>En 2014: ASSISTANT ELECTRICIEN – LAMENTIN – 1 SEMAINE Cabinet techniciens.</br> Les premiers jours, notre mission consistait à observer les lieux afin de déterminer  où et comment  installer les fils électriques à travers les murs et poser par la suite des moulures décoratives. Enfin on a pu mettre en place les caméras et ainsi finir la sécurisation de la maison.</li>
-						</ul> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+						</div> {% endcomment %}

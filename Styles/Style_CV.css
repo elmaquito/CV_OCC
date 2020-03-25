@@ -1,11 +1,12 @@
 .title_col {
   text-align: center;
-  background-color: grey;
+  background-color: #9E9E9E;
   color: lightgrey;
 }
 
 .col-md-3 {
-  background-color: lightgrey;
+  background-color: #E0E0E0;
+  padding: 0;
 }
 
 #info {
@@ -26,5 +27,33 @@
 
 .col-md-7 {
   background-color: #b79f7d;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+#photo_ismael {
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
+
+#nom {
+  color: lightgray;
+}
+
+#informations {
+  list-style-type: none;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#content {
+  padding-top: 20px;
 }
 /*# sourceMappingURL=Style_CV.css.map */
