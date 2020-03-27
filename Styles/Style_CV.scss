@@ -27,6 +27,9 @@
 body{
     overflow-wrap: break-word;
 }
+#body_container{
+    overflow: hidden;
+}
 // .col-md-3
 
 .col-md-3 {
@@ -57,15 +60,28 @@ img{
 #informations li {
     padding-bottom: 7px;
 }
+// A PROPOS
+
+#a_propos {
+    margin: 0px;
+    padding: 20px 20px 20px 30px;
+}
 
 // LOISIRS
 
+
+.loisirs{
+    margin-top: 430px;
+}
+
 #icons{
     text-align: center;
+    justify-content: center;
 }
 
 #icons i{
     display: inline-block;
+    width: 72px;
     border-radius: 160px;
     border: 2px solid black;
 }
@@ -109,31 +125,25 @@ header{
 
 .section_content {
     padding-top: 20px;
-    height: 170px;
 }
 
-.content_left {
+.content {
     width: 50%;
     padding-right: 20px;
     padding-left: 20px;
 }
-.content_right {
-    width: 50%;
-    padding-right: 20px;
-    padding-left: 20px;
-}
+
 .content_icon {
     color: #E0E0E0;
 }
 
-.content_etablishment{
-    height: 25px;
-}
- 
-.content_status {
-    height: 25px;
-}
-
 .content_description {
     font-size: 11px;
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 768px) {
+    .loisirs {
+        margin-top: 0px;
+    }
 }

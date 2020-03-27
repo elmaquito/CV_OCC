@@ -28,6 +28,10 @@ body {
   overflow-wrap: break-word;
 }
 
+#body_container {
+  overflow: hidden;
+}
+
 .col-md-3 {
   background-color: #E0E0E0;
   padding: 0px;
@@ -54,12 +58,25 @@ img {
   padding-bottom: 7px;
 }
 
+#a_propos {
+  margin: 0px;
+  padding: 20px 20px 20px 30px;
+}
+
+.loisirs {
+  margin-top: 430px;
+}
+
 #icons {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #icons i {
   display: inline-block;
+  width: 72px;
   border-radius: 160px;
   border: 2px solid black;
 }
@@ -100,16 +117,9 @@ header {
 
 .section_content {
   padding-top: 20px;
-  height: 170px;
 }
 
-.content_left {
-  width: 50%;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.content_right {
+.content {
   width: 50%;
   padding-right: 20px;
   padding-left: 20px;
@@ -119,15 +129,13 @@ header {
   color: #E0E0E0;
 }
 
-.content_etablishment {
-  height: 25px;
-}
-
-.content_status {
-  height: 25px;
-}
-
 .content_description {
   font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .loisirs {
+    margin-top: 0px;
+  }
 }
 /*# sourceMappingURL=Style_CV.css.map */
