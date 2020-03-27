@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<meta charset="UTF-8"/>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="https://use.fontawesome.com/7f56ac2667.js"></script>
 		<title>CV ismael martinez</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="Styles/Style_CV.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="Styles/Style_CV.css">
 	</head>
 	<body>
 		<div class="container">
@@ -18,88 +18,225 @@
 							<h4>CONTACT</h4>
 						</div>
 						<ul id="informations">
-							<li>Adresse:</br>Toulouse, France</li>
-							<li>Téléphone:</br>+33(0)767912363</li>
-							<li>Email:</br>martinezismael.fr@gmail.com</li>
-							<li>Site web:</br><a href="https://github.com/elmaquito/CV_ismael_martinez">Lien git</a></li>
-							<li>LinkedIn:</br><a href="https://www.linkedin.com/in/ismael-martinez-805330186/">Ismael martinez</a></li>
+							<li>Adresse</br>Toulouse, France</li>
+							<li>Téléphone</br>+33(0)767912363</li>
+							<li>Email</br>martinezismael.fr@gmail.com</li>
+							<li>Site web</br><a href="https://github.com/elmaquito/CV_ismael_martinez">Lien git</a></li>
+							<li>LinkedIn</br><a href="https://www.linkedin.com/in/ismael-martinez-805330186/">Ismael martinez</a></li>
 						</ul>
-					<div class="Competences">
+					<section class="a_propos">
 						<div class="title_col">
-							<h4>Compétences</h4>
+							<h4>A PROPOS DE MOI</h4>
 						</div>
-						<ul>
-							<li>Django</li>
-							<li>HTML5 et CSS3</li>
-							<li>Python</li>
-							<li>excel</li>
-							<li>git</li>
-						</ul>
-					</div>
-					<div class="title_col">
-						<h4>Formation</h4>
-					</div>
-					<p>J'ai appris le développement en autodidacte avec au début de petits jeu qui enseigne les différentes syntaxe et les bases de l'algorithme tel que 
-						<a href="https://www.codingame.com/start">Coding game</a>,
-						Ensuite je me suis penché vers le développement web en utlisant python et Django grace au cours sur OpenClassRoom.
-						Depuis je continue d'en apprendre tout les jours grace à mon travail, mais aussi a mes outils de veilles.
-					</p>
+						<div class="row">
+							<p>Je suis un jeune homme rempli d’énergie qui aime la découverte mais aussi les choses bien faites.
+								Ma polyvalence et la communication sont mes points forts.
+								j'adore apprendre de nouvelles choses, c'est de la que viens ma passion pour les voyages et le developpement parceque l'on arrete jamais d'apprendre.
+							</p>
+						</div>
+					</section>
+					<section class="loisirs">
+						<div class="title_col">
+							<h4>LOISIRS</h4>
+						</div>
+						<div class="row" id="icons">
+							<i class="fa fa-gamepad fa-3x"></i>
+							<i class="fa fa-leaf fa-3x"></i>
+							<i class="fa fa-plane fa-3x" id="plane"></i>
+						</div>
+					</section>
 				</div>
 				<div class="col-md-7">
 					<header class="col header">
 						<div>
-							<h1><strong id="nom">Ismael</strong> Martinez</h1>
+							<h1><strong id="nom">ISMAEL</strong> Martinez</h1>
 						</div>
 						<div>
-							<h4><span>Dével</span>oppeur Web</h4>
+							<h4><span class="underlined_word">Dével</span>oppeur Web</h4>
 						</div>
 					</header>
 					<div class="container" id="content">
-						<div>
-							<h5>FORMATION</h5>
-						</div>
+						<section class="cv_template">
+							<div class="row section_header">
+								<i class="fa fa-graduation-cap fa-2x"></i>
+								<h5 class="section_name">FORMATION</h5>
+							</div>
+							<div class="row section_content">
+								<div class="row content_left">
+									<div class="col info">
+										<div class="row">
+											<span class="content_icon">
+												<i class="fa fa-circle"></i>
+											</span>
+											<p>2018-2020<br/>Toulouse</p>
+										</div>
+									</div>
+								</div>
+								<div class="row content_right">
+									<div class="col info">
+										<div class="col">
+											<div class="row content_etablishment">
+												<h5>OPENCLASSROOM</h5>
+											</div>
+											<div class="row content_status">
+												<p>Develloper web</p>
+											</div>
+											<div class="row content_description">
+												<p>J'ai commencé OpenClassRoom bien avant de m'inscrire au cursus de développeur web.
+												Tout d'abord par plaisir en fesant quelques cours afin d'apprendre puis professionnellement pour approfondir mes connaissances et aquierir mon diplome.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><div class="row section_content">
+								<div class="row content_left">
+									<div class="col info">
+										<div class="row">
+											<span class="content_icon">
+												<i class="fa fa-circle"></i>
+											</span>
+											<p>2015-2018<br/>Guadeloupe</p>
+										</div>
+									</div>
+								</div>
+								<div class="row content_right">
+									<div class="col info">
+										<div class="col">
+											<div class="row content_etablishment">
+												<h5>LYCEE YVES LEBORGNE</h5>
+											</div>
+											<div class="row content_status">
+												<p>Baccalauréat Littéraire</p>
+											</div>
+											<div class="row content_description">
+												<p>c'est le cursus national pour obtenir le BAC, qui est un diplome géneral qui permet d'accéder aux écoles supérieurs.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="cv_template">
+							<div class="row section_header">
+								<i class="fa fa-briefcase fa-2x"></i>
+								<h5 class="section_name">EXPERIENCE PROFESSIONNELLE</h5>
+							</div>
+							<div class="row section_content">
+								<div class="row content_left">
+									<div class="col info">
+										<div class="row">
+											<span class="content_icon">
+												<i class="fa fa-circle"></i>
+											</span>
+											<p>Octobre 2019 - poste actuel<br/>Toulouse</p>
+										</div>
+									</div>
+								</div>
+								<div class="row content_right">
+									<div class="col info">
+										<div class="col">
+											<div class="row content_etablishment">
+												<h5>OWEO</h5>
+											</div>
+											<div class="row content_status">
+												<p>web Develloper</p>
+											</div>
+											<div class="row content_description">
+												<p>j'ai signé un contrat avec oweo en octobre pour une mission dans l'entreprise Philotech en tant que sous-traitant. 
+												je me suis occuppé de leurs base de données, de leur interface mais aussi du traitement des donnnées pour les spécialistes.'' </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row section_content">
+								<div class="row content_left">
+									<div class="col info">
+										<div class="row">
+											<span class="content_icon">
+												<i class="fa fa-circle"></i>
+											</span>
+											<p>Aout - 2019<br/>Guadeloupe</p>
+										</div>
+									</div>
+								</div>
+								<div class="row content_right">
+									<div class="col info">
+										<div class="col">
+											<div class="row content_etablishment">
+												<h5>CapExcellence</h5>
+											</div>
+											<div class="row content_status">
+												<p>Assistant technicien reseaux</p>
+											</div>
+											<div class="row content_description">
+												<p>
+													En tant qu’assistant mon rôle était d'aider les techniciens, durant leurs missions sur les différents complexe de l'entreprise.
+													C'est à dire tout ce qui était clonage de système, initalisation de laptop, mais aussi connexion des téléphone fixe au réseaux. 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row section_content">
+								<div class="row content_left">
+									<div class="col info">
+										<div class="row">
+											<span class="content_icon">
+												<i class="fa fa-circle"></i>
+											</span>
+											<p>Aout - 2018<br/>Paris</p>
+										</div>
+									</div>
+								</div>
+								<div class="row content_right">
+									<div class="col info">
+										<div class="col">
+											<div class="row content_etablishment">
+												<h5>Ecole 42</h5>
+											</div>
+											<div class="row content_status">
+												<p>dévellopeur</p>
+											</div>
+											<div class="row content_description">
+												<p>
+													Il s’agissait d’un mois d’apprentissage/concours pour pouvoir rentrer à l’école 42.
+													On y apprend la programmation de bases en C, mais aussi l’apprentissage en Peer to Peer. La réussite est basée
+													sur l’entraide, la communication et le travail acharné.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="cv_template">
+							<div class="row section_header">
+								<i class="fa fa-pencil fa-2x"></i>
+								<h5 class="section_name">RECOMMENDATIONS</h5>
+							</div>
+							<div class="row section_content">
+								<div class="row content_left">
+									<div class="col info">
+										<div class="col">
+											<div class="row content_etablishment">
+												<p><strong>Franck FITOUSSI</strong></p>
+											</div>
+											<div class="row content_status">
+												<p>Senior Business Unit Manager</p>
+											</div>
+											<div class="row recommendations_description">
+												<p>Email: f.fitoussi@oweogroup.fr</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
 </html>
-						{% comment %} <div>
-							<h5>Mon experience:</h5>
-						</div>
-						<div class="col">
-							<div class="col">
-								<div class="row title_list">2020: DEVELOPPEUR WEB – TOULOUSE - EN COURS – Philotech</div>
-								<div class="info_list">J'ai commencé mon contrat en tant que développeur web en octobre 2019.
-								Au début, j'ai du me familiariser avec le language dans l'aéronautique 
-								ainsi qu'apprendre le process de transfer et d'assessment d'une tache de maintenance.
-								pour compléter les différentes missions qui m'ont été confiés.
-								J'ai du apprendre en profondeur l'utilisation de HTML5, CSS3, JQUERY pour l'interaction entre l'utilisateur et la page web, 
-								mais aussi comprendre l'importation de fichiers excel vers phpmyadmin afin de creer une base de donnée à partir de ceux-ci
-								et ensuite les importer vers un serveur avec le module wsgi.
-								Enfin j'ai du me perfectionner dans la programmation en python mais aussi en algorythmique
-								afin de creer un code optimisé, propre et aux normes.
-								</div>
-							</div>
-							<div class="col">
-								<div class="row title_list">2019: ASSISTANT TECHNICIEN RESEAUX – POINTRE A PITRE – 1 MOIS – CapExcellence.</div>
-								<div class="info_list">En tant qu’assistant mon rôle était d'aider les techniciens, durant leurs missions sur les différents complexe de l'entreprise.
-								C'est à dire tout ce qui était clonage de système, initalisation de laptop, mais aussi connexion des téléphone fixe au réseaux.
-								Il y avait beaucoup de déplacement afin de régler les problèmes qui nous avait été apporter.
-								J’ai également appris à l'aspect technique de la connnexion sur un réseaux, c'est à dire comment est-ce-que cela fonctionne, sa sécurité etc...</div>
-							</div>
-							<div class="col">
-								<div class="row title_list">2018: DEVELOPPEUR INFORMATIQUE – PARIS – 1 MOIS – Ecole 42.</div>
-								<div class="info_list">Il s’agissait d’un mois d’apprentissage/concours pour pouvoir rentrer à l’école 42.
-								Ce stage fut riche en apprentissage car on y travaille de manière autonome ( pas de professeur ni manuel)
-								nous devions résoudre des problèmes et compléter des exercices chaque jours sur du Shell ou encore sur du C.
-								On y apprend la programmation de bases en C, mais aussi l’apprentissage en Peer to Peer. La réussite est basée
-								sur l’entraide, la communication et le travail acharné.</div>
-							</div>
-							<div class="col">
-								<div class="row title_list">2014: ASSISTANT ELECTRICIEN – LAMENTIN – 1 SEMAINE – Cabinet de techniciens.</div>
-								<div class="info_list">Les premiers jours, notre mission consistait à observer les lieux afin de déterminer où et
-								comment  installer les fils électriques à travers les murs et poser par la suite des moulures décoratives afin de faire protéger les cables.
-								Enfin on a pu mettre en place les caméras a l'intérieur de la maison, mais aussi à l'exterieur.</div>
-							</div>
-						</div> {% endcomment %}
