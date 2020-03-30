@@ -27,6 +27,7 @@
 body{
     overflow-wrap: break-word;
 }
+
 #body_container{
     overflow: hidden;
 }
@@ -60,6 +61,7 @@ img{
 #informations li {
     padding-bottom: 7px;
 }
+
 // A PROPOS
 
 #a_propos {
@@ -99,10 +101,12 @@ img{
     text-decoration: underline;
     text-decoration-color: #E0E0E0;
 }
+
 header{
     padding-top: 65px;
     padding-bottom: 80px;
 }
+
 #nom{
     color: rgb(211, 211, 211);
 }
