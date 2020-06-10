@@ -90,7 +90,7 @@ img{
 
 // .col-md-7
 
-.col-md-7 {
+.col-md-8 {
     background-color: rgb(183,159,125);
     padding: 20px 20px;
     flex: 0 0 74%;
@@ -151,5 +151,8 @@ header{
 @media screen and (max-width: 768px) {
     .loisirs {
         margin-top: 0px;
+    }
+    .col-md-8 {
+        flex: none;
     }
 }
