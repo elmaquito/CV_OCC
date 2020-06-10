@@ -36,6 +36,7 @@ body{
 .col-md-3 {
     background-color: #E0E0E0;
     padding: 0px;
+    position: relative;
 }
 
 // Photo
@@ -73,7 +74,9 @@ img{
 
 
 .loisirs{
-    margin-top: 430px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 #icons{
@@ -93,7 +96,6 @@ img{
 .col-md-8 {
     background-color: rgb(183,159,125);
     padding: 20px 20px;
-    flex: 0 0 74%;
     max-width: 100%;
 }
 
@@ -148,9 +150,32 @@ header{
 }
 
 // MEDIA QUERIES
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: none;
+        padding: 0px;
+    }
+    .col-md-7{
+        flex: 0 0 75%;
+    }
+    #icons i {
+        width: 40px;
+        border-radius: 100%;
+    }
+    .fa-3x{
+        font-size: 1.5em;
+    }
+    .fa{
+        padding: 5px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .loisirs {
-        margin-top: 0px;
+    .content {
+        width: 100%;
+    }
+    .loisirs{
+        position: static;
     }
     .col-md-8 {
         flex: none;
