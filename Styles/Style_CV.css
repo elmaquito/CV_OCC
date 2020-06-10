@@ -81,7 +81,7 @@ img {
   border: 2px solid black;
 }
 
-.col-md-8 {
+.col-md-7 {
   background-color: #b79f7d;
   padding: 20px 20px;
   -webkit-box-flex: 0;
@@ -141,7 +141,7 @@ header {
   .loisirs {
     margin-top: 0px;
   }
-  .col-md-8 {
+  .col-md-7 {
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
